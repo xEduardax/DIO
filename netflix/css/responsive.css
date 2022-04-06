@@ -1,0 +1,180 @@
+@media screen and (max-width: 500px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao {
+        margin-top: 5px;
+        width: 150px;
+    } 
+
+    .filme-principal {
+        background-image: url(../imagens/vincenzo-2.jpg);
+         
+        height: 250px;
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        align-items: stretch;
+    }
+
+    .titulo-logo img {
+        width: 95%;
+        height: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        align-items: stretch;
+        margin-top: 70%;
+        margin-bottom: 0%;
+    }
+
+    .carrosel-filmes {
+        margin-top: 70%;
+    }
+
+    .botoes {
+        display: flex;
+        flex-direction: row;
+        margin-top: 0;
+    }
+
+    .botao {
+        width: 50%;
+        font-size: 10px;
+        padding: 8px 0px;
+        margin-right: 5px;
+    }
+
+    .botao i {
+        margin-right: 5px;
+    }
+
+    .titulo {
+        margin-top: -30px;
+    }
+
+    .filme-principal .descricao  {
+        margin-bottom: 5%;
+        font-size: 19px;
+        width: 400px;
+    }
+
+    .sub-descricao {
+        color: rgb(143, 138, 138);
+        font-size: 15px;
+        width: 500px;
+        padding-top: 5px ;
+    }
+
+}
+
+@media screen and (min-width: 800px) {
+    .descricao {
+        width: 50%;
+    }
+}
+
+@media (max-width: 786px){
+    body, html {
+    overflow-x: hidden!important;
+    }
+}
+
+@media screen and (min-width: 2900px) {
+
+    .filme-principal {
+        height: 1000px;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+   nav {
+       font-size: 25px;
+   }
+
+   .logo img {
+       width: 200px;
+       margin-top: 5px;
+   }
+
+   .titulo-logo img {
+       width: 60%;
+       height: 60%;
+   }
+
+   .titulo {
+    font-size: 40px;
+}
+
+   .filme-principal .descricao  {
+    font-size: 30px;
+    width: 1200px;
+}
+
+    .sub-descricao {
+        font-size: 30px;
+        padding-top: 30px;
+    }
+
+ 
+    .botao {
+        font-size: 25px;
+        padding: 20px 20px;
+        margin-right: 5px;
+    }
+
+}
+
+@media screen and (min-width: 2000px) {
+
+    .filme-principal {
+        height: 1000px;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+   nav {
+       font-size: 25px;
+   }
+
+   .logo img {
+       width: 200px;
+       margin-top: 5px;
+   }
+
+   .titulo-logo img {
+       width: 60%;
+       height: 60%;
+       margin-top: 10%;
+       margin-bottom: 20px;
+   }
+
+   .titulo {
+    font-size: 40px;
+}
+
+   .filme-principal .descricao  {
+    font-size: 30px;
+    width: 1200px;
+}
+
+    .sub-descricao {
+        font-size: 30px;
+        padding-top: 30px;
+    }
+
+ 
+    .botao {
+        font-size: 25px;
+        padding: 20px 20px;
+        margin-right: 5px;
+    }
+
+}
