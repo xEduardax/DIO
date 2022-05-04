@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+
+body {
+    background-color: rgb(235, 231, 231);
+    max-width: 900px;
+    margin: auto;
+}
+
+#titulo, .subtitulo, .titulo-post {
+    color: #505050;
+} 
+
+#titulo {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+a { 
+    color: #2C403A;
+}
+
+.titulo-post {
+  font-size: 16px;
+  font-style: italic;
+  margin: 0;
+  margin-bottom:15px;
+}
+
+.post {
+    background-color: white;
+    padding: 15px;
+    border: 3px solid #505050;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.212);
+}
+
+.conteudo {
+    margin: 0px;
+    margin-bottom:15px;
+    text-transform: capitalize;
+    font-family: Scheherazade New, serif;
+    text-align: justify;
+
+}
+
+.imagem {
+    margin-bottom: 15px;
+    width: 100%;
+    height: 50%;
+}
+
+ul > a {
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    list-style-type: "\1F517\00A0";
+}
+
+aside {
+    background-color: #fffefa;
+    padding: 10px;
+    height: 7.5em;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.315);
+}
+
+aside > h3 {
+    background-color: #5d7ba1;
+    text-align: center;
+    color: white;
+    padding: 8px;
+    margin: -10px -10px -0px -10px;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+aside > ul {
+    list-style-type: "\1F517\00A0";
+    list-style-position: inside;
+    padding: 0px 10px 3px 3px;
+}
+
+footer {
+    background-color: #5d7ba1;
+}
+
+footer p {
+    text-align: center;
+    font: 0.8em;
+    padding: 4px;
+    font-weight: bold;
+}
+
+footer a {
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
